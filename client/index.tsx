@@ -4,6 +4,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import { RouterProvider } from 'react-router/dom'
 import { createBrowserRouter } from 'react-router'
 import routes from './routes.tsx'
+import React from 'react'
 
 const queryClient = new QueryClient()
 
